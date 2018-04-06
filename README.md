@@ -1,6 +1,6 @@
 # Java-Project-1
-Libraries from this website for my Java textbook are necessary to run this
-
+Libraries from the website for my Java textbook are necessary to run this
+https://introcs.cs.princeton.edu/java/stdlib/
 
 * Calculates the distance between home and a destination 
 * using longitude and latitude coordinates
