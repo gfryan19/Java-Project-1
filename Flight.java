@@ -3,10 +3,6 @@
 // Coordinates for Holy Cross = 42.238145 N  71.810862 W
 // PLace program code in a file named Flight.java
 
-// Have the Math.PI function checked
-// Check the arctan equation
-// Check the error reguarding Char variables in the error message if statements
-
 /*------------------------------------------------
 * Author: Greg Ryan
 * Email: gfryan19@g.holycross.edu
@@ -104,13 +100,13 @@ public class Flight {
 		destLong = destLong * -1;
 	}
 
-	radHomeLat = homeLat * (Math.PI / 180); // get help on this one.. Math.PI function not working
+	radHomeLat = homeLat * (Math.PI / 180); 
 	System.out.println(radHomeLat);
-	radHomeLong = homeLong * (Math.PI / 180); // get help on this one.. Math.PI function not working
+	radHomeLong = homeLong * (Math.PI / 180); 
 	System.out.println(radHomeLong);
-	radDestLat = destLat * (Math.PI / 180); // get help on this one.. Math.PI function not working
+	radDestLat = destLat * (Math.PI / 180); 
 	System.out.println(radDestLat);
-	radDestLong = destLong * (Math.PI / 180); // get help on this one.. Math.PI function not working
+	radDestLong = destLong * (Math.PI / 180); 
 	System.out.println(radDestLong);
 
 	// The following statements are a broken up version of the distance formula
@@ -123,7 +119,7 @@ public class Flight {
 	cosFinal = (Math.cos(radHomeLat)) * (Math.cos(radDestLat));
 	v = (latSin + longSin) * cosFinal;
 	System.out.println("v = " + v);
-	// ************ CHECK THIS FORMULA *************
+	
 	distance = 2 * radius * (Math.atan2(Math.sqrt(v), Math.sqrt(1 - v)));
 
 	// Prints the distance between home and the destination
